@@ -8,6 +8,29 @@ Cut first response time while keeping high-risk customers in a human review lane
 
 This is a deployable portfolio demo for SaaS support teams and ecommerce brands. It shows a complete AI automation workflow: intake, deterministic scoring, AI-assisted drafting, human approval, and mock publishing to common business systems.
 
+## Before / What We Provide / After
+
+### Before
+
+- Tickets arrive from Zendesk, Intercom, Slack and are reviewed one by one.
+- The team copies details between tools, decides priority manually, and writes repetitive notes or replies from scratch.
+- High-value or risky tickets can sit in the same queue as low-value work, so follow-up quality depends on who notices first.
+
+### What We Provide
+
+- A deployable React and Express workflow app tailored to SaaS support teams and ecommerce brands.
+- An AI scoring and routing engine for tickets, with deterministic fallback mode and optional live OpenAI Responses API review.
+- Human-in-loop approval screens, generated drafts, audit-friendly timeline, and mock adapters for Zendesk, Intercom, Slack, Help Scout, Zapier, n8n.
+- Production-ready handoff assets: Dockerfile, Render config, environment template, tests, and integration payload examples.
+
+### After
+
+- Tickets are classified, scored, routed to Tier 1 queue, and prepared for review in seconds.
+- The operator receives draft outputs, next-best actions, and integration payloads before anything is sent externally.
+- Approved work is pushed to Zendesk and Intercom, keeping the source workflow and downstream records aligned.
+
+See [BEFORE_AFTER_DEMO.md](./BEFORE_AFTER_DEMO.md) for a client-ready walkthrough script.
+
 ## Demo Features
 
 - React operations dashboard for tickets
